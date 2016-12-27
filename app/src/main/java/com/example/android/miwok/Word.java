@@ -13,6 +13,12 @@ public class Word
     // Miwok translation of the word
     private String mMiwokTranslation;
 
+    /**
+     * Create a Word object
+     *
+     * @param englishTranslation is the word in English that the user is already familiar with
+     * @param miwokTranslation is the word in the Miwok translation
+     */
     public Word(String englishTranslation, String miwokTranslation)
     {
         mEnglishTranslation = englishTranslation;
